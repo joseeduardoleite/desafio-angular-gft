@@ -1,0 +1,118 @@
+{
+  "usuarios":
+  [
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "email": "Sincere@april.biz"
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "username": "Antonette",
+      "email": "Shanna@melissa.tv"
+    },
+    {
+      "id": 3,
+      "name": "Clementine Bauch",
+      "username": "Samantha",
+      "email": "Nathan@yesenia.net"
+    },
+    {
+      "id": 4,
+      "name": "Patricia Lebsack",
+      "username": "Karianne",
+      "email": "Julianne.OConner@kory.org"
+    },
+    {
+      "id": 5,
+      "name": "Chelsey Dietrich",
+      "username": "Kamren",
+      "email": "Lucio_Hettinger@annie.ca"
+    },
+    {
+      "id": 6,
+      "name": "Mrs. Dennis Schulist",
+      "username": "Leopoldo_Corkery",
+      "email": "Karley_Dach@jasper.info"
+    },
+    {
+      "id": 7,
+      "name": "Kurtis Weissnat",
+      "username": "Elwyn.Skiles",
+      "email": "Telly.Hoeger@billy.biz"
+    },
+    {
+      "id": 8,
+      "name": "Nicholas Runolfsdottir V",
+      "username": "Maxime_Nienow",
+      "email": "Sherwood@rosamond.me"
+    },
+    {
+      "id": 9,
+      "name": "Glenna Reichert",
+      "username": "Delphine",
+      "email": "Chaim_McDermott@dana.io"
+    },
+    {
+      "id": 10,
+      "name": "Clementina DuBuque",
+      "username": "Moriah.Stanton",
+      "email": "Rey.Padberg@karina.biz"
+    }
+  ],
+  "photos":
+  [
+    {
+      "id": 1,
+      "title": "Primeira Foto",
+      "url": "https://via.placeholder.com/600/92c952"
+    },
+    {
+      "id": 2,
+      "title": "Segunda Foto",
+      "url": "https://via.placeholder.com/600/771796"
+    },
+    {
+      "id": 3,
+      "title": "Terceira Foto",
+      "url": "https://via.placeholder.com/600/24f355"
+    },
+    {
+      "id": 4,
+      "title": "Quarta Foto",
+      "url": "https://via.placeholder.com/600/d32776"
+    },
+    {
+      "id": 5,
+      "title": "Quinta Foto",
+      "url": "https://via.placeholder.com/600/f66b97"
+    },
+    {
+      "id": 6,
+      "title": "Sexta Foto",
+      "url": "https://via.placeholder.com/600/56a8c2"
+    },
+    {
+      "id": 7,
+      "title": "Sétima Foto",
+      "url": "https://via.placeholder.com/600/b0f7cc"
+    },
+    {
+      "id": 8,
+      "title": "Oitava Foto",
+      "url": "https://via.placeholder.com/600/54176f"
+    },
+    {
+      "id": 9,
+      "title": "Nona Foto",
+      "url": "https://via.placeholder.com/600/51aa97"
+    },
+    {
+      "id": 10,
+      "title": "Décima Foto",
+      "url": "https://via.placeholder.com/600/810b14"
+    }
+  ]
+}

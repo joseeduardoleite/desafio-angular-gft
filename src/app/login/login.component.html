@@ -1,0 +1,22 @@
+<div class="d-flex justify-content-center align-items-center">
+    <div class="card p-5">
+        <form [formGroup]="form" (ngSubmit)="login()" >
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" class="form-control"  formControlName="email" requiredminlength="5">
+                <p *ngIf='mensagemEmailInvalido != emailDB' style="color: red;">{{ mensagemEmailInvalido }}</p>
+                <p *ngIf='mensagemEmailNull != ""' style="color: red;">{{ mensagemEmailNull }}</p>                
+            </div>
+
+            <div class="form-group">
+                <label for="senha" style="color: black;">Senha</label>
+                <input type="password" id="senha" class="form-control" formControlName="senha" requiredminlength="8">
+                <p *ngIf='mensagemSenhaInvalida != senhaDB' style="color: red;">{{ mensagemSenhaInvalida }}</p>
+                <p *ngIf='mensagemSenhaNull != ""' style="color: red;">{{ mensagemSenhaNull }}</p>
+            </div>
+            
+            <button class="btn btn-success" (click)="act()" type="submit" [disabled]="form.get('email').value != emailDB && form.get('senha').value != senhaDB" style="height: 40px; width: 200px;">Entrar</button>
+            <p *ngIf='mensagem != ""' style="color: green;">{{ mensagem }}</p>
+        </form>
+    </div>
+</div>

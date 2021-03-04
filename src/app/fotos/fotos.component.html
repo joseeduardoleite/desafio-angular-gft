@@ -1,0 +1,9 @@
+<div>
+    <h2 style="margin-left: 3%; margin-top: 10px;">Fotos</h2>
+</div><br>
+<div *ngFor="let photo of fotos" class="card text-white bg-primary mb-3" style="width: 18rem; display: inline-flex; align-items: center; justify-content: space-between; margin-left: 3%;">
+    <img class="card-img-top" src={{photo.url}} alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">{{photo.title}}</p>
+    </div>
+</div>
